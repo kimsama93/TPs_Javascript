@@ -1,4 +1,4 @@
-const ageSaisi = prompt("Veuillez saisir votre age");
+let ageSaisi = prompt("Veuillez saisir votre age");
 
 if (ageSaisi >= 7 && ageSaisi <= 9) {
   alert("Vous êtes un Poussin ! ");
