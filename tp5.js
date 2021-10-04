@@ -11,10 +11,10 @@ while (identifiant != identifiantSaisi || mdp != mdpSaisi) {
 
   nbrDecnx++;
 
-  if (identifiant != identifiantSaisi && mdp != mdpSaisi) {
-    alert("Bienvenue dans votre espace client");
-  } else {
+  if (identifiant != identifiantSaisi || mdp != mdpSaisi) {
     alert("identifiants incorrects, veuillez recommencer");
+  } else {
+    alert("Bienvenue dans votre espace client ! ");
   }
 
   if (nbrDecnx == 5) {
