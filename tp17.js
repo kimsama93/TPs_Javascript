@@ -23,5 +23,10 @@ for (let i = 0; i < tailleMatrice; i++) {
 }
 
 somme = somme1 + somme2;
-console.log("La matrice est matrice = [" + matrice + "]");
+
+// Affichage
+for (let i = 0; i < tailleMatrice; i++) {
+  console.log(matrice[i].toString());
+}
+//console.log("La matrice est matrice = [" + matrice + "]");
 console.log("sommme de la diagonale est : " + somme);
