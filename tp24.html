@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p id="err-champsV"></p>
+    <form id="form">
+      <label for="nom">Nom : </label>
+      <input id="nom" /><br />
+      <label for="prenom">Prénom : </label>
+      <input id="prenom" /><br />
+      <label for="age">Age : </label>
+      <input id="age" /><br />
+
+      <label for="genre">Genre : </label>
+      <input id="genre" /><br />
+      <label for="pays">Pays : </label>
+      <input id="pays" /><br />
+      <label for="option">Option : </label>
+      <input id="option" /><br />
+      <label for="listeCours">Lises des cours : </label>
+      <input id="listeCours" /><br />
+      <input type="submit" value="Envoyer" />
+    </form>
+
+    <h2>Tableau</h2>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>Nom</th>
+          <th>Prenom</th>
+          <th>Age</th>
+          <th>Genre</th>
+          <th>Pays</th>
+          <th>Option</th>
+          <th>Listes des cours</th>
+        </tr>
+      </thead>
+      <tbody id="tabEtudiant"></tbody>
+    </table>
+    <script src="tp24.js"></script>
+  </body>
+</html>
